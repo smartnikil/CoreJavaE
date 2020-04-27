@@ -8,9 +8,9 @@ public class Names {
 
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
-		System.out.println("first name:");
+		System.out.println("firstname:");
 		String fn = sc.next();
-		System.out.println("last name:");
+		System.out.println("lastname:");
 		String ln = sc.next();
 		System.out.println();
 		System.out.println("Hello\n"+fn+" "+ln);
