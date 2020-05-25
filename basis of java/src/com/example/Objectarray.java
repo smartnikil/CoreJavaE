@@ -32,6 +32,7 @@ public class Objectarray {
 	System.out.println("CAR LIST");
 	for(Car c: cars) {
 		System.out.println(c.cname+"\t"+c.cmodel+"\t"+c.cprice);
+		sc.close();
 	}
   }
 
